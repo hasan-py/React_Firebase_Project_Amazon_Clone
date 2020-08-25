@@ -1,0 +1,29 @@
+.product {
+	display:flex;
+	flex-direction:column;
+}
+
+.starIcon {
+	color: #ecc94b;	
+}
+
+.product_display {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.product_display > img {
+	object-fit:contain;
+	max-width:100px;
+	height:300px;
+}
+
+.product_display > button {
+	background: #ecc94b;
+	color:black;
+	width:100px;
+	border:none;
+	padding:5px;
+	border-radius:5px;
+}
