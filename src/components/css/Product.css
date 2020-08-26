@@ -1,6 +1,12 @@
 .product {
 	display:flex;
 	flex-direction:column;
+	align-items: center;
+	margin-left:10px;
+	margin-right:10px;
+	background:white;
+	padding:25px;
+	margin-bottom:20px;
 }
 
 .starIcon {
@@ -15,8 +21,9 @@
 
 .product_display > img {
 	object-fit:contain;
-	max-width:100px;
-	height:300px;
+	max-width:400px;
+	max-height:100px;
+	margin-bottom:10px;
 }
 
 .product_display > button {

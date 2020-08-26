@@ -22,6 +22,39 @@ const Home = (props) => {
     			image="https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._AC_SL1092_.jpg"
     		/>
     	</div>
+        <div className="home_row">
+            <Product 
+                id="123"
+                title="AMD Ryzen 7 3700X 8-Core, 16-Thread Unlocked Desktop Processor with Wraith Prism LED Cooler"
+                price="289.99"
+                rating="4"
+                image="https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._AC_SL1092_.jpg"
+            />
+            <Product 
+                id="123"
+                title="AMD Ryzen 7 3700X 8-Core, 16-Thread Unlocked Desktop Processor with Wraith Prism LED Cooler"
+                price="289.99"
+                rating="4"
+                image="https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._AC_SL1092_.jpg"
+            />
+             <Product 
+                id="123"
+                title="AMD Ryzen 7 3700X 8-Core, 16-Thread Unlocked Desktop Processor with Wraith Prism LED Cooler"
+                price="289.99"
+                rating="4"
+                image="https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._AC_SL1092_.jpg"
+            />
+        </div>
+        <div className="home_row">
+            <Product 
+                id="123"
+                title="AMD Ryzen 7 3700X 8-Core, 16-Thread Unlocked Desktop Processor with Wraith Prism LED Cooler"
+                price="289.99"
+                rating="4"
+                image="https://images-na.ssl-images-amazon.com/images/I/717Di3DGIbL._AC_SL1092_.jpg"
+            />
+        </div>
+
     </div>
   )
 }
