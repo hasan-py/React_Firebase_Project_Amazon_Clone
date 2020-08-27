@@ -21,8 +21,8 @@
 
 .product_display > img {
 	object-fit:contain;
-	max-width:400px;
-	max-height:100px;
+	max-width:200px;
+	max-height:400px;
 	margin-bottom:10px;
 }
 
@@ -33,4 +33,5 @@
 	border:none;
 	padding:5px;
 	border-radius:5px;
+	cursor: pointer;
 }

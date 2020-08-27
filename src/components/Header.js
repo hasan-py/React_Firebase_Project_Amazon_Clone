@@ -1,12 +1,16 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import "./css/Header.css";
 import {Link} from "react-router-dom";
 
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 
+import {StateContext} from "../App";
 
 const Header = (props) => {
+	const {data} = useContext(StateContext)
+	let {busket} = data
+	console.log(busket)
   return (
     <nav className="header">
     	{/* Logo */}
@@ -38,13 +42,13 @@ const Header = (props) => {
 					<span className="header_span_second">Prime</span>
 				</div>	
 			</Link>
+		</div>
 			<Link to="/checkout" className="header_link">
 				<div className="header_shopping_busket">
 					<ShoppingCartOutlinedIcon />
-					<span>0</span>
+					<span>{busket?.length}</span>
 				</div>	
 			</Link>
-		</div>
     </nav>
   )
 }
