@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Checkout from "./components/Checkout";
+
 import {initialState,reducer} from "./components/Reducer";
 
 export const StateContext = createContext();
@@ -16,7 +18,8 @@ function App() {
         <div className="app">
           <Switch>
             <Route path="/checkout">
-              <h1>Hello</h1>
+              <Header/>
+              <Checkout />
             </Route>
             <Route path="/login">
               <h1>Login</h1>
