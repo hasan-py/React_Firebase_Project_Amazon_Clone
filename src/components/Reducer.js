@@ -7,7 +7,8 @@ export const getSubtotal = (list)=>{
 }
 
 export const initialState = {
-	busket:[]
+	busket:[],
+	user:null
 }
 
 export const reducer = (state,action)=>{
@@ -28,6 +29,11 @@ export const reducer = (state,action)=>{
 			return {
 				...state,
 				busket:newBusket
+			}
+		case "SET_USER":
+			return {
+				...state,
+				user:action.payload
 			}
 		default:
 			return state
